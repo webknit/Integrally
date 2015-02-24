@@ -1,0 +1,10 @@
+.admin-options {
+	border-bottom: 1px solid #E3E3E3;
+	border-top: 1px solid #E3E3E3;
+	padding: 1em 0;
+	margin-bottom: 1em;
+	&__li {
+		display: inline;
+		margin-right: 1em;
+	}
+}

@@ -33,4 +33,30 @@ class WelcomeController extends Controller {
 		return view('welcome');
 	}
 
+	public function phonebookSingle()
+	{
+		$people = [
+			[
+				'name' => 'Shane Prendergast',
+				'role' => 'Web developer'
+			],
+			[
+				'name' => 'Jordan Lane',
+				'role' => 'Web developer'
+			],
+			[
+				'name' => 'Timmy',
+				'role' => 'Artist'
+			]
+
+		];
+		$data = ['people' => $people];
+		return view('phonebook-single')->with($data);
+	}
+
+	public function phonebook()
+	{
+		return view('phonebook');
+	}
+
 }

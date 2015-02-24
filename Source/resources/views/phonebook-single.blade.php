@@ -10,15 +10,19 @@
 
 			<div class="phonebook__info-sidebar">
 
-				<img src="img/avatar.jpg" class="phonebook__avatar" />
-
+				<img src="/img/avatar.jpg" class="phonebook__avatar" />
+				{{-- dd($people) --}}
+				{{-- var_dump($people) --}}
+				
+				@foreach($people as $person)
 				<ul class="phonebook__person-info-ul">
 
-					<li class="phonebook__person-info-li"><span>Name</span>{{$name}}</li>
-					<li class="phonebook__person-info-li"><span>Role</span>Web developer</li>
+					<li class="phonebook__person-info-li"><span>Name</span>{{$person['name']}}</li>
+					<li class="phonebook__person-info-li"><span>Role</span>{{$person['role']}}</li>
 					<li class="phonebook__person-info-li"><span>DOB</span>17-08-1986</li>
 
 				</ul>
+				@endforeach
 
 			</div><!-- .phonebook__info-sidebar -->
 

@@ -1,5 +1,5 @@
-HTML/node_modules
-HTML/assets/node_modules/*
+Source/resources/assets/node_modules
+Source/resources/assets/node_modules/*
 
-HTML/assets/.sass-cache
-HTML/assets/.sass-cache/*
+Source/resources/assets/.sass-cache
+Source/resources/assets/.sass-cache/*
