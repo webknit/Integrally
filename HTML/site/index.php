@@ -46,6 +46,42 @@
 
 				</li><!-- .phonebook__person -->
 
+				<li class="phonebook__person">
+
+					<img src="img/avatar.jpg" class="phonebook__avatar" />
+
+					<ul class="phonebook__person-info-ul">
+
+						<li class="phonebook__person-info-li"><span>Name</span>Shane Prendergast</li>
+
+					</ul>
+
+				</li><!-- .phonebook__person -->
+
+				<li class="phonebook__person">
+
+					<img src="img/avatar.jpg" class="phonebook__avatar" />
+
+					<ul class="phonebook__person-info-ul">
+
+						<li class="phonebook__person-info-li"><span>Name</span>Shane Prendergast</li>
+
+					</ul>
+
+				</li><!-- .phonebook__person -->
+
+				<li class="phonebook__person">
+
+					<img src="img/avatar.jpg" class="phonebook__avatar" />
+
+					<ul class="phonebook__person-info-ul">
+
+						<li class="phonebook__person-info-li"><span>Name</span>Shane Prendergast</li>
+
+					</ul>
+
+				</li><!-- .phonebook__person -->
+
 			</ul><!-- .phonebook__list -->
 
 		</div><!-- .container -->
