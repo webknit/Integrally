@@ -4,7 +4,7 @@
 
 	<div class="content phonebook">
 
-		<div class="container">
+		<div class="container row">
 
 			<div class="phonebook__criteria row">
 
@@ -41,8 +41,11 @@
 					<ul class="phonebook__person-info-ul">
 
 						<li class="phonebook__person-info-li"><span>Name</span>Shane Prendergast</li>
+						<li class="phonebook__person-info-li"><span>Role</span>Web developer</li>
 
 					</ul>
+
+					<a href="#" class="phonebook__person-view">View</a>
 
 				</li><!-- .phonebook__person -->
 
@@ -53,8 +56,11 @@
 					<ul class="phonebook__person-info-ul">
 
 						<li class="phonebook__person-info-li"><span>Name</span>Shane Prendergast</li>
+						<li class="phonebook__person-info-li"><span>Role</span>Web developer</li>
 
 					</ul>
+
+					<a href="#" class="phonebook__person-view">View</a>
 
 				</li><!-- .phonebook__person -->
 
@@ -65,8 +71,11 @@
 					<ul class="phonebook__person-info-ul">
 
 						<li class="phonebook__person-info-li"><span>Name</span>Shane Prendergast</li>
+						<li class="phonebook__person-info-li"><span>Role</span>Web developer</li>
 
 					</ul>
+
+					<a href="#" class="phonebook__person-view">View</a>
 
 				</li><!-- .phonebook__person -->
 
@@ -77,8 +86,11 @@
 					<ul class="phonebook__person-info-ul">
 
 						<li class="phonebook__person-info-li"><span>Name</span>Shane Prendergast</li>
+						<li class="phonebook__person-info-li"><span>Role</span>Web developer</li>
 
 					</ul>
+
+					<a href="#" class="phonebook__person-view">View</a>
 
 				</li><!-- .phonebook__person -->
 
