@@ -36,7 +36,7 @@
 
 				<li class="phonebook__person">
 
-					<img src="img/avatar.jpg" class="phonebook__avatar" />
+					<img src="img/avatar.jpg" class="phonebook__avatar phonebook__avatar--center" />
 
 					<ul class="phonebook__person-info-ul">
 
@@ -51,7 +51,7 @@
 
 				<li class="phonebook__person">
 
-					<img src="img/avatar.jpg" class="phonebook__avatar" />
+					<img src="img/avatar.jpg" class="phonebook__avatar phonebook__avatar--center" />
 
 					<ul class="phonebook__person-info-ul">
 
@@ -66,7 +66,7 @@
 
 				<li class="phonebook__person">
 
-					<img src="img/avatar.jpg" class="phonebook__avatar" />
+					<img src="img/avatar.jpg" class="phonebook__avatar phonebook__avatar--center" />
 
 					<ul class="phonebook__person-info-ul">
 
@@ -81,7 +81,7 @@
 
 				<li class="phonebook__person">
 
-					<img src="img/avatar.jpg" class="phonebook__avatar" />
+					<img src="img/avatar.jpg" class="phonebook__avatar phonebook__avatar--center" />
 
 					<ul class="phonebook__person-info-ul">
 

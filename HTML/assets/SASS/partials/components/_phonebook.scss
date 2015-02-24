@@ -33,8 +33,11 @@
 	}
 	&__avatar {
 		display: block;
-		margin: 0 auto 1em;
+		margin-bottom: 1em;
 		max-width: 80px;
+		&--center {
+			margin: 0 auto 1em;
+		}
 	}
 	&__person-info-ul {
 		margin-bottom: 1em;
@@ -53,8 +56,10 @@
 		padding: 0.5em;
 		width: auto;
 	}
-}
-
-.phonebook--single {
-	
+	&__info-sidebar {
+		@include span(3 of 12);
+	}
+	&__bio {
+		@include span(6 of 12);
+	}
 }
