@@ -1,0 +1,46 @@
+.phonebook {
+	&__criteria {
+		&-select {
+			margin-right: 1em;
+		}
+	}
+	&__searchbox {
+		float: right;
+		input[type=text] {
+			width: 100px;
+		}
+		input[type=submit] {
+			width: auto;
+		}
+	}
+	&__list {
+		clear: both;
+	}
+	&__person {
+		background: rgba(0,0,0,0.1);
+		float: left;
+		padding: 1em;
+		width: 100%;
+		@include breakpoint(medium) {
+			width: 33.33333%;
+		}
+		@include breakpoint(large) {
+			width: 25%;
+		}
+	}
+	&__avatar {
+		display: block;
+		margin: 0 auto 1em;
+		max-width: 80px;
+	}
+	&__person-info-ul {
+		text-align: center;
+	}
+	&__person-info-li {
+		font-weight: $weight-bold;
+		span {
+			display: block;
+			font-weight: normal;
+		}
+	}
+}

@@ -2,11 +2,12 @@ input,
 textarea {
 	margin: 0 0 1em;
 	outline: none;
-	padding: 1em;
+	padding: 0.8em;
 	width: 100%;
 }
 
 input[type=submit] {
 	border: none;
+	background: red;
 }
 	
