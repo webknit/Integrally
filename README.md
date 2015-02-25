@@ -1,6 +1,8 @@
 # Integrally
 A modern intranet
 
+local URL - integrally.app/
+
 ## Server start/end
 - homestead up
 - homestead halt
