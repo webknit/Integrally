@@ -5,4 +5,32 @@
 		line-height: 1;
 		margin-top: 0;
 	}
+	&__left-sidebar {
+		@include span(12 of 12 last);
+		@include breakpoint(medium) {
+			@include span(6 of 12);
+		}
+		@include breakpoint(large) {
+			@include span(3 of 12);
+		}
+	}
+	&__main {
+		@include span(12 of 12);
+		@include breakpoint(medium) {
+			@include span(6 of 12 last);
+		}
+		@include breakpoint(large) {
+			@include span(6 of 12);
+		}
+	}
+	&__right-sidebar {
+		text-align: right;
+		@include span(12 of 12);
+		@include breakpoint(medium) {
+			@include span(12 of 12);
+		}
+		@include breakpoint(large) {
+			@include span(3 of 12 last);
+		}
+	}
 }
