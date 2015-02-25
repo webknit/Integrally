@@ -59,4 +59,9 @@ class WelcomeController extends Controller {
 		return view('phonebook');
 	}
 
+	public function phonebook()
+	{
+		return view('phonebook-dept');
+	}
+
 }

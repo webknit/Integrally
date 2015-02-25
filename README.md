@@ -13,6 +13,9 @@ resources/views
 ## Access files in browser/ add routes
 app/http/routes.php
 
+## Access controllers
+app/http/Controllers/welcomeController.php
+
 ## Public files
 Anything public, images, CSS, JS goes in /public
 
