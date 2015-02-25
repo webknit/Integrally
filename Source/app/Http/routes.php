@@ -15,6 +15,10 @@ Route::get('/', 'WelcomeController@index');
 
 Route::get('home', 'HomeController@index');
 
+Route::get('admin', 'WelcomeController@admin');
+
+Route::get('layouts', 'WelcomeController@layouts');
+
 Route::get('phonebook', 'WelcomeController@phonebook');
 
 Route::get('phonebook-single', 'WelcomeController@phonebookSingle');

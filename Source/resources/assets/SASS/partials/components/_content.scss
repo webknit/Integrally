@@ -1,8 +1,53 @@
 .content {
 	padding: 3em 0;
+	&__demo {
+		background: red;
+		color: white;
+		padding: 1em;
+	}
 	&__megaheader {
 		font-size: 3em;
 		line-height: 1;
 		margin-top: 0;
+	}
+	&__layout1-col1 {
+		@include span(12 of 12 last);
+		@include breakpoint(medium) {
+			@include span(6 of 12);
+		}
+		@include breakpoint(large) {
+			@include span(3 of 12);
+		}
+	}
+	&__layout1-col2 {
+		@include span(12 of 12);
+		@include breakpoint(medium) {
+			@include span(6 of 12 last);
+		}
+		@include breakpoint(large) {
+			@include span(6 of 12);
+		}
+	}
+	&__layout1-col3 {
+		text-align: right;
+		@include span(12 of 12);
+		@include breakpoint(medium) {
+			@include span(12 of 12);
+		}
+		@include breakpoint(large) {
+			@include span(3 of 12 last);
+		}
+	}
+	&__layout2-col1 {
+		@include span(12 of 12 last);
+		@include breakpoint(medium) {
+			@include span(9 of 12);
+		}
+	}
+	&__layout2-col2 {
+		@include span(12 of 12);
+		@include breakpoint(medium) {
+			@include span(3 of 12 last);
+		}
 	}
 }
