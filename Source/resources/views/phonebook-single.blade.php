@@ -10,7 +10,7 @@
 
 			<div class="content__layout1-col1">
 
-				<img src="/img/avatar.jpg" class="phonebook__avatar" />
+				<img src="/img/avatar.jpg" />
 
 				<ul>
 

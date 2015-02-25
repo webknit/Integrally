@@ -6,31 +6,31 @@
 
 	<div class="container row">
 
-		<div class="phonebook__criteria row">
+		<div class="content__criteria row">
 
-			<select class="phonebook__criteria-select">
+			<select class="content__criteria-select">
 				<option value="">Department</option>
 				<option value="">Development</option>
 				<option value="">Accounts</option>
 				<option value="">Finance</option>
 			</select>
 
-			<select lass="phonebook__criteria-select">
+			<select lass="content__criteria-select">
 				<option value="">Sort Name</option>
 				<option value="">A-Z</option>
 				<option value="">Z-A</option>
 			</select> 
 
-			<form class="phonebook__searchbox">
+			<form class="content__searchbox">
 
-				<label for="phonebook__searchboxname">Search</label>
-				<input type="text" id="phonebook__searchboxname" class="phonebook__searchbox-name" placeholder="Joe Bloggs" />
+				<label for="content__searchboxname">Search</label>
+				<input type="text" id="content__searchboxname" class="content__searchbox-name" placeholder="Joe Bloggs" />
 
 				<input type="submit" value="Submit" />
 
 			</form>
 
-		</div><!-- .phonebook_criteria -->
+		</div><!-- .content_criteria -->
 
 		<div class="content__list-info">
 
