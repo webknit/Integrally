@@ -19,7 +19,7 @@ Route::get('phonebook', 'WelcomeController@phonebook');
 
 Route::get('phonebook-single', 'WelcomeController@phonebookSingle');
 
-Route::get('phonebook-dept', 'WelcomeController@phonebookSingle');
+Route::get('phonebook-dept', 'WelcomeController@phonebookDept');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',

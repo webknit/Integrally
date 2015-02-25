@@ -59,7 +59,7 @@ class WelcomeController extends Controller {
 		return view('phonebook');
 	}
 
-	public function phonebook()
+	public function phonebookDept()
 	{
 		return view('phonebook-dept');
 	}
