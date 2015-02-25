@@ -2,126 +2,29 @@
 
 @section('content')
 
-<div class="content phonebook phonebook--single">
+<div class="content admin">
 
 	<div class="container">
 
 		<div class="row">
 
-			<div class="content__left-sidebar phonebook__info-sidebar">
+			<div class="content__layout2-col1">
 
-				<img src="/img/avatar.jpg" class="phonebook__avatar" />
+				<h2>Admin options</h2>
 
-				<ul class="phonebook__person-info-ul">
+				<ul>
 
-					<li class="phonebook__person-info-li"><span>Name</span>Shane Prendergast</li>
-					<li class="phonebook__person-info-li"><span>Role</span>Web Developer</li>
-					<li class="phonebook__person-info-li"><span>DOB</span>17-08-1986</li>
+					<li><a>Add a new user</a></li>
 
 				</ul>
 
 			</div><!-- .phonebook__info-sidebar -->
 
-			<div class="content__main phonebook__bio">
+			<div class="content__layout2-col2">
 
-				<h2 class="content__megaheader">Shane Prendergast</h2>
-
-				<ul class="admin-options">
-
-					<li class="admin-options__li"><a>Edit</a></li>
-
-				</ul>
-
-				<p><strong>Question</strong></p>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
-				<p><strong>Question</strong></p>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
-				<p><strong>Question</strong></p>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				
 
 			</div><!-- .phonebook__bio -->
-
-			<div class="content__right-sidebar phonebook__options">
-
-				<ul>
-					<li><a>View department</a></li>
-					<li><a>View calender</a></li>
-					<li><a>Send message</a></li>
-				<ul>
-
-			</div>
-
-		</div><!-- .row -->
-
-		<div class="row">
-
-			<h2 class="center-align">Related Staff</h2>
-
-			<ul class="phonebook__list">
-
-				<li class="phonebook__person">
-
-					<img src="img/avatar.jpg" class="phonebook__avatar phonebook__avatar--center" />
-
-					<ul class="phonebook__person-info-ul">
-
-						<li class="phonebook__person-info-li"><span>Name</span>Shane Prendergast</li>
-						<li class="phonebook__person-info-li"><span>Role</span>Web developer</li>
-
-					</ul>
-
-					<a href="#" class="phonebook__person-view">View</a>
-
-				</li><!-- .phonebook__person -->
-
-				<li class="phonebook__person">
-
-					<img src="img/avatar.jpg" class="phonebook__avatar phonebook__avatar--center" />
-
-					<ul class="phonebook__person-info-ul">
-
-						<li class="phonebook__person-info-li"><span>Name</span>Shane Prendergast</li>
-						<li class="phonebook__person-info-li"><span>Role</span>Web developer</li>
-
-					</ul>
-
-					<a href="#" class="phonebook__person-view">View</a>
-
-				</li><!-- .phonebook__person -->
-
-				<li class="phonebook__person">
-
-					<img src="img/avatar.jpg" class="phonebook__avatar phonebook__avatar--center" />
-
-					<ul class="phonebook__person-info-ul">
-
-						<li class="phonebook__person-info-li"><span>Name</span>Shane Prendergast</li>
-						<li class="phonebook__person-info-li"><span>Role</span>Web developer</li>
-
-					</ul>
-
-					<a href="#" class="phonebook__person-view">View</a>
-
-				</li><!-- .phonebook__person -->
-
-				<li class="phonebook__person">
-
-					<img src="img/avatar.jpg" class="phonebook__avatar phonebook__avatar--center" />
-
-					<ul class="phonebook__person-info-ul">
-
-						<li class="phonebook__person-info-li"><span>Name</span>Shane Prendergast</li>
-						<li class="phonebook__person-info-li"><span>Role</span>Web developer</li>
-
-					</ul>
-
-					<a href="#" class="phonebook__person-view">View</a>
-
-				</li><!-- .phonebook__person -->
-
-			</ul><!-- .phonebook__list -->
 
 		</div><!-- .row -->
 
