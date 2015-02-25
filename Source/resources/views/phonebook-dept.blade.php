@@ -32,7 +32,7 @@
 
 		</div><!-- .phonebook_criteria -->
 
-		<div class="phonebook__dept-info">
+		<div class="content__list-info">
 
 			<h2>Development</h2>
 
@@ -46,71 +46,72 @@
 
 			</ul>
 
-		</div><!-- .phonebook_dept-info -->
+		</div><!-- .content__list-info -->
 
-		<ul class="phonebook__list">
+		<ul class="content__list">
 
-			<li class="phonebook__person">
+			<li class="content__list-li">
 
-				<img src="img/avatar.jpg" class="phonebook__avatar phonebook__avatar--center" />
+				<img src="img/avatar.jpg" class="content__list-avatar" />
 
-				<ul class="phonebook__person-info-ul">
+				<ul>
 
-					<li class="phonebook__person-info-li"><span>Name</span>Shane Prendergast</li>
-					<li class="phonebook__person-info-li"><span>Role</span>Web developer</li>
-
-				</ul>
-
-				<a href="#" class="phonebook__person-view">View</a>
-
-			</li><!-- .phonebook__person -->
-
-			<li class="phonebook__person">
-
-				<img src="img/avatar.jpg" class="phonebook__avatar phonebook__avatar--center" />
-
-				<ul class="phonebook__person-info-ul">
-
-					<li class="phonebook__person-info-li"><span>Name</span>Shane Prendergast</li>
-					<li class="phonebook__person-info-li"><span>Role</span>Web developer</li>
+					<li><span>Name:</span>Shane Prendergast</li>
+					<li><span>Role:</span>Web Developer</li>
+					<li><span>DOB:</span>17-08-1986</li>
 
 				</ul>
 
-				<a href="#" class="phonebook__person-view">View</a>
+				<a href="#" class="content__list-view">View</a>
 
-			</li><!-- .phonebook__person -->
+			</li><!-- .content__list-li -->
 
-			<li class="phonebook__person">
+			<li class="content__list-li">
 
-				<img src="img/avatar.jpg" class="phonebook__avatar phonebook__avatar--center" />
+				<img src="img/avatar.jpg" class="content__list-avatar" />
 
-				<ul class="phonebook__person-info-ul">
+				<ul>
 
-					<li class="phonebook__person-info-li"><span>Name</span>Shane Prendergast</li>
-					<li class="phonebook__person-info-li"><span>Role</span>Web developer</li>
-
-				</ul>
-
-				<a href="#" class="phonebook__person-view">View</a>
-
-			</li><!-- .phonebook__person -->
-
-			<li class="phonebook__person">
-
-				<img src="img/avatar.jpg" class="phonebook__avatar phonebook__avatar--center" />
-
-				<ul class="phonebook__person-info-ul">
-
-					<li class="phonebook__person-info-li"><span>Name</span>Shane Prendergast</li>
-					<li class="phonebook__person-info-li"><span>Role</span>Web developer</li>
+					<li><span>Name:</span>Shane Prendergast</li>
+					<li><span>Role:</span>Web Developer</li>
 
 				</ul>
 
-				<a href="#" class="phonebook__person-view">View</a>
+				<a href="#" class="content__list-view">View</a>
 
-			</li><!-- .phonebook__person -->
+			</li><!-- .content__list-li -->
 
-		</ul><!-- .phonebook__list -->
+			<li class="content__list-li">
+
+				<img src="img/avatar.jpg" class="content__list-avatar" />
+
+				<ul>
+
+					<li><span>Name:</span>Shane Prendergast</li>
+					<li><span>Role:</span>Web Developer</li>
+
+				</ul>
+
+				<a href="#" class="content__list-view">View</a>
+
+			</li><!-- .content__list-li -->
+
+			<li class="content__list-li">
+
+				<img src="img/avatar.jpg" class="content__list-avatar" />
+
+				<ul>
+
+					<li><span>Name:</span>Shane Prendergast</li>
+					<li><span>Role:</span>Web Developer</li>
+
+				</ul>
+
+				<a href="#" class="content__list-view">View</a>
+
+			</li><!-- .content__list-li -->
+
+		</ul><!-- .content__list -->
 
 	</div><!-- .container -->
 

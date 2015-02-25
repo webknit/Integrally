@@ -44,9 +44,43 @@
 
 			<div class="content__layout2-col2 content__demo">
 
-				<p>content__layout1-col2</p>
+				<p>content__layout2-col2</p>
 
 			</div><!-- .phonebook__bio -->
+
+		</div><!-- .row -->
+
+		<div class="row">
+
+			<h2>Conten lists - For lists of stuff - will be elaborated on for extra layouts</h2>
+
+			<ul class="content__list">
+
+				<li class="content__list-li content__demo">
+
+					<p>content__list-li</p>
+
+				</li><!-- .content__list-li -->
+
+				<li class="content__list-li content__demo">
+
+					<p>content__list-li</p>
+
+				</li><!-- .content__list-li -->
+
+				<li class="content__list-li content__demo">
+
+					<p>content__list-li</p>
+
+				</li><!-- .content__list-li -->
+
+				<li class="content__list-li content__demo">
+
+					<p>content__list-li</p>
+
+				</li><!-- .content__list-li -->
+
+			</ul><!-- .content__list -->
 
 		</div><!-- .row -->
 
