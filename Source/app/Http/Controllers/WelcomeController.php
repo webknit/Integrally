@@ -33,6 +33,16 @@ class WelcomeController extends Controller {
 		return view('welcome');
 	}
 
+	public function admin()
+	{
+		return view('admin');
+	}
+
+	public function layouts()
+	{
+		return view('layouts');
+	}
+
 	public function phonebookSingle()
 	{
 		$people = [

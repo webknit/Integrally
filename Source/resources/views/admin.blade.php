@@ -8,7 +8,7 @@
 
 		<div class="row">
 
-			<div class="content__layout1-col1 phonebook__info-sidebar">
+			<div class="content__left-sidebar phonebook__info-sidebar">
 
 				<img src="/img/avatar.jpg" class="phonebook__avatar" />
 
@@ -22,7 +22,7 @@
 
 			</div><!-- .phonebook__info-sidebar -->
 
-			<div class="content__layout1-col2 phonebook__bio">
+			<div class="content__main phonebook__bio">
 
 				<h2 class="content__megaheader">Shane Prendergast</h2>
 
@@ -43,7 +43,7 @@
 
 			</div><!-- .phonebook__bio -->
 
-			<div class="content__layout1-col3 phonebook__options">
+			<div class="content__right-sidebar phonebook__options">
 
 				<ul>
 					<li><a>View department</a></li>
