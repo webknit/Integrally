@@ -25,6 +25,8 @@ Route::get('phonebook-single', 'WelcomeController@phonebookSingle');
 
 Route::get('phonebook-dept', 'WelcomeController@phonebookDept');
 
+Route::get('download', 'WelcomeController@download');
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',

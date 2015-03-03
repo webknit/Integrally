@@ -73,5 +73,10 @@ class WelcomeController extends Controller {
 	{
 		return view('phonebook-dept');
 	}
+	
+	public function download()
+	{
+		return view('download');
+	}
 
 }
