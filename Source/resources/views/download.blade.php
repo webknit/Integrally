@@ -9,16 +9,16 @@
 		<div class="content__criteria row">
 
 			<select class="content__criteria-select">
-				<option value="">Department</option>
-				<option value="">Development</option>
-				<option value="">Accounts</option>
+				<option value="">Category</option>
+				<option value="">Soemthing</option>
+				<option value="">Something</option>
 				<option value="">Finance</option>
 			</select>
 
 			<select lass="content__criteria-select">
-				<option value="">Sort Name</option>
-				<option value="">A-Z</option>
-				<option value="">Z-A</option>
+				<option value="">Sort by</option>
+				<option value="">Most popular</option>
+				<option value="">Best rated</option>
 			</select> 
 
 			<form class="content__searchbox">
@@ -32,64 +32,39 @@
 
 		</div><!-- .content_criteria -->
 
-		<ul class="content__list">
+		<ul class="content__list content__list--stacked">
 
 			<li class="content__list-li">
+			
+				<div class="content__list-info-contain">
 
-				<img src="img/avatar.jpg" class="content__list-avatar" />
-
-				<ul>
-
-					<li><span>Name:</span>Shane Prendergast</li>
-					<li><span>Role:</span>Web Developer</li>
-					<li><span>DOB:</span>17-08-1986</li>
-
-				</ul>
+					<h2 class="content__list-title">Title of download</h2>
+	
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					
+					<ul class="content__list-tag-ul">
+					
+						<li class="content__list-tag-li"><a class="content__list-tag-a">Development</a></li>
+						<li class="content__list-tag-li"><a class="content__list-tag-a">Accounts</a></li>
+						<li class="content__list-tag-li"><a class="content__list-tag-a">PR</a></li>
+						
+					</ul>
+				
+				</div><!-- .content__list-info-float -->
 
 				<a href="#" class="content__list-view">View</a>
 
 			</li><!-- .content__list-li -->
-
+			
 			<li class="content__list-li">
+			
+				<div class="content__list-info-contain">
 
-				<img src="img/avatar.jpg" class="content__list-avatar" />
-
-				<ul>
-
-					<li><span>Name:</span>Shane Prendergast</li>
-					<li><span>Role:</span>Web Developer</li>
-
-				</ul>
-
-				<a href="#" class="content__list-view">View</a>
-
-			</li><!-- .content__list-li -->
-
-			<li class="content__list-li">
-
-				<img src="img/avatar.jpg" class="content__list-avatar" />
-
-				<ul>
-
-					<li><span>Name:</span>Shane Prendergast</li>
-					<li><span>Role:</span>Web Developer</li>
-
-				</ul>
-
-				<a href="#" class="content__list-view">View</a>
-
-			</li><!-- .content__list-li -->
-
-			<li class="content__list-li">
-
-				<img src="img/avatar.jpg" class="content__list-avatar" />
-
-				<ul>
-
-					<li><span>Name:</span>Shane Prendergast</li>
-					<li><span>Role:</span>Web Developer</li>
-
-				</ul>
+					<h2 class="content__list-title">Title of download</h2>
+	
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				
+				</div><!-- .content__list-info-float -->
 
 				<a href="#" class="content__list-view">View</a>
 

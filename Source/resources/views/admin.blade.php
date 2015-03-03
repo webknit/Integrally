@@ -15,6 +15,7 @@
 				<ul>
 
 					<li><a>Add a new user</a></li>
+					<li><a>Add a new download/info</a></li>
 
 				</ul>
 

@@ -32,7 +32,7 @@
 
 		</div><!-- .content_criteria -->
 
-		<div class="content__list-info">
+		<div class="content__list-intro">
 
 			<h2>Development</h2>
 

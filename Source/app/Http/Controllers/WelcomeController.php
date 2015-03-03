@@ -78,5 +78,11 @@ class WelcomeController extends Controller {
 	{
 		return view('download');
 	}
+	
+	public function downloadSingle()
+	{
+		return view('download-single');
+	}
+
 
 }
