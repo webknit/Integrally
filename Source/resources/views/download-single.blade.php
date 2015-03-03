@@ -10,21 +10,20 @@
 
 			<div class="content__layout1-col1">
 
-				<img src="/img/avatar.jpg" />
-
 				<ul>
 
-					<li><span>Name:</span>Shane Prendergast</li>
-					<li><span>Role:</span>Web Developer</li>
-					<li><span>DOB:</span>17-08-1986</li>
+					<li><span>Author:</span>Shane Prendergast</li>
+					<li><span>Last updated:</span>17-08-86</li>
 
 				</ul>
+				
+				<a class="btn">Download</a>
 
 			</div><!-- .phonebook__info-sidebar -->
 
 			<div class="content__layout1-col2">
 
-				<h2 class="content__megaheader">Shane Prendergast</h2>
+				<h2 class="content__megaheader">Name of download</h2>
 
 				<ul class="admin-options">
 
@@ -44,85 +43,16 @@
 			</div><!-- .phonebook__bio -->
 
 			<div class="content__layout1-col3">
+			
+				<h3>Realted articles</h3>
 
 				<ul>
-					<li><a>View department</a></li>
-					<li><a>View calender</a></li>
-					<li><a>Send message</a></li>
+					<li><a>Developers guide</a></li>
+					<li><a>Developers code</a></li>
+					<li><a>Welcome guide</a></li>
 				<ul>
 
 			</div>
-
-		</div><!-- .row -->
-
-		<div class="row">
-
-			<h2 class="center-align">Related Staff</h2>
-
-			<ul class="content__list">
-
-				<li class="content__list-li">
-
-					<img src="img/avatar.jpg" class="content__list-avatar" />
-
-					<ul>
-
-						<li><span>Name:</span>Shane Prendergast</li>
-						<li><span>Role:</span>Web Developer</li>
-						<li><span>DOB:</span>17-08-1986</li>
-
-					</ul>
-
-					<a href="#" class="content__list-view">View</a>
-
-				</li><!-- .content__list-li -->
-
-				<li class="content__list-li">
-
-					<img src="img/avatar.jpg" class="content__list-avatar" />
-
-					<ul>
-
-						<li><span>Name:</span>Shane Prendergast</li>
-						<li><span>Role:</span>Web Developer</li>
-
-					</ul>
-
-					<a href="#" class="content__list-view">View</a>
-
-				</li><!-- .content__list-li -->
-
-				<li class="content__list-li">
-
-					<img src="img/avatar.jpg" class="content__list-avatar" />
-
-					<ul>
-
-						<li><span>Name:</span>Shane Prendergast</li>
-						<li><span>Role:</span>Web Developer</li>
-
-					</ul>
-
-					<a href="#" class="content__list-view">View</a>
-
-				</li><!-- .content__list-li -->
-
-				<li class="content__list-li">
-
-					<img src="img/avatar.jpg" class="content__list-avatar" />
-
-					<ul>
-
-						<li><span>Name:</span>Shane Prendergast</li>
-						<li><span>Role:</span>Web Developer</li>
-
-					</ul>
-
-					<a href="#" class="content__list-view">View</a>
-
-				</li><!-- .content__list-li -->
-
-			</ul><!-- .content__list -->
 
 		</div><!-- .row -->
 
