@@ -27,6 +27,8 @@ Route::get('profiles/{slug}', 'Profiles\ProfileController@profile');
 
 Route::get('profiles/group/{group}', 'Profiles\ProfileController@group');
 
+Route::get('profiles/{slug}/edit', 'Profiles\ProfileController@profileEdit');
+
 /*
 |--------------------------------------------------------------------------
 | Resource Routes
@@ -44,6 +46,8 @@ Route::get('resources/{slug}', 'Resources\ResourceController@resource');
 */
 
 Route::get('admin', 'WelcomeController@admin');
+
+Route::get('login', 'WelcomeController@login');
 
 Route::get('layouts', 'WelcomeController@layouts');
 
