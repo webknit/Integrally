@@ -24,7 +24,7 @@
 
 			<div class="content__layout1-col2">
 
-				<h2 class="content__megaheader">Shane Prendergast</h2>
+				<h2 class="content__megaheader">{{$slug}}</h2>
 
 				<ul class="admin-options">
 

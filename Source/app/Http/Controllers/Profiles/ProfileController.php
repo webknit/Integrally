@@ -58,7 +58,8 @@ class ProfileController extends Controller {
 
 	public function group($slug)
 	{
-		return view('profiles.group');
+		$data = ['slug' => $slug];
+		return view('profiles.group')->with($data);
 	}
 
 
