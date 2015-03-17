@@ -14,10 +14,17 @@
 
 				<form>
 
+					<label>Username</label>
 					<input type="text" />
+
+					<label>Password</label>
 					<input type="password" />
 
 					<input type="submit" />
+
+				</form>
+
+				<a href="">Forgot Password</a>
 
 			</div><!-- .phonebook__info-sidebar -->
 

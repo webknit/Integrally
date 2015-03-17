@@ -9,5 +9,16 @@ textarea {
 input[type=submit] {
 	border: none;
 	background: red;
+	width: auto;
+}
+
+input[type=checkbox] {
+	border: none;
+	background: red;
+	width: auto;
+}
+
+label {
+	display: block;
 }
 	
