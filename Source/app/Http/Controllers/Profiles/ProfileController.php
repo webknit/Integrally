@@ -1,6 +1,7 @@
 <?php namespace App\Http\Controllers\Profiles;
 
 use App\Http\Controllers\Controller;
+use App\Models\Profile;
 
 class ProfileController extends Controller {
 
@@ -32,27 +33,14 @@ class ProfileController extends Controller {
 	 */
 	public function index()
 	{
-		return view('profiles.index');
+		$data['profiles'] = Profile::all();
+		return view('profiles.index')->with($data);
 	}
 
 	public function profile($slug)
 	{
-		$people = [
-			[
-				'name' => 'Shane Prendergast',
-				'role' => 'Web developer'
-			],
-			[
-				'name' => 'Jordan Lane',
-				'role' => 'Web developer'
-			],
-			[
-				'name' => 'Timmy',
-				'role' => 'Artist'
-			]
-
-		];
-		$data = ['people' => $people, 'slug' => $slug];
+		$data['profile'] = Profile::where('slug', $slug)->first();
+		$data['profile']->name = $data['profile']->first_name . " " . $data['profile']->last_name;
 		return view('profiles.profile')->with($data);
 	}
 
