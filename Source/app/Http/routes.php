@@ -21,7 +21,10 @@ Route::get('home', 'HomeController@index');
 |--------------------------------------------------------------------------
 */
 
-Route::get('profiles', 'Profiles\ProfileController@index');
+Route::get('profiles', array(
+	'uses' => 'Profiles\ProfileController@index',
+	'as' => 'profiles'
+));
 
 Route::get('profiles/{slug}', 'Profiles\ProfileController@profile');
 

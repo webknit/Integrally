@@ -1,14 +1,35 @@
 /* COLOURS - http://chir.ag/projects/name-that-color/
 ------------------------------------------ */
 
+/* COLOUR NAMES
+------------------------------------------ */
+
 $col-white: #fff;
+
+// main coulurs
+$col-tundora: #454545;
 $col-mine-shaft: #333333;
 $col-red-damask: #d8544b;
 $col-sunglo: #e2766f;
 
-$col-standard: $col-mine-shaft;
-$col-link: $col-red-damask;
-$col-link-hover: $col-sunglo;
+// Links/btns
+$col-mantis-light: #82c872;
+$col-mantis: #82c872;
+
+// Header colours
+$col-outer-space: #2f3c42;
+
+
+/* COLOUR REFERENCES
+------------------------------------------ */
+
+// Base elements
+$col-standard: $col-tundora;
+$col-link: $col-mantis;
+$col-link-hover: $col-mantis-light;
+
+// Header
+$col-header-bg: $col-outer-space;
 
 
 /* WEIGHTS

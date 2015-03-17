@@ -72,6 +72,10 @@
 
 			<div class="content__layout2-col2">
 
+				<ul>
+					<li><a href="{{route('profiles')}}">View profiles</a></li>
+				</ul>
+
 				
 
 			</div><!-- .phonebook__bio -->
