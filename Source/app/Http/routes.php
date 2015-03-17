@@ -23,7 +23,10 @@ Route::get('home', 'HomeController@index');
 
 Route::get('profiles', 'Profiles\ProfileController@index');
 
-Route::get('profiles/{slug}', 'Profiles\ProfileController@profile');
+Route::get('profiles/{slug}', array(
+	'uses' => 'Profiles\ProfileController@profile',
+	'as' => 'profile'
+));
 
 Route::get('profiles/group/{group}', 'Profiles\ProfileController@group');
 
