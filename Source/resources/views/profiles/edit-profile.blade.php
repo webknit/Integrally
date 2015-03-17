@@ -14,7 +14,10 @@
 
 				<form>
 
-					<label>First name</label>
+					<label>Email</label>
+					<input type="text" />
+
+					<label>First Name</label>
 					<input type="text" />
 
 					<label>Last Name</label>
@@ -23,16 +26,40 @@
 					<label>DOB</label>
 					<input type="text" />
 
-					<label>Department</label>
-					<input type="checkbox" name="dept" value="dept1"> Dept 1<br>
-					<input type="checkbox" name="dept" value="dept2"> Dept 2<br>
-
-					<label>Sub Department</label>
-					<input type="checkbox" name="subdept" value="subdept1"> Sub Dept 1<br>
-					<input type="checkbox" name="subdept" value="subdept2"> Sub Dept 2<br>
-
-					<label>Role</label>
-					<input type="text" />
+					<label>Groups</label>
+					<li>
+						<input type="checkbox" name="stein" value="stein"> stein<br>
+						<ul>
+							<li>
+								<input type="checkbox" name="stein" value="stein"> EMEA
+								<ul>
+									<li>
+										<input type="checkbox" name="stein" value="stein"> Bollington
+										<ul>
+											<li>
+												<input type="checkbox" name="stein" value="stein"> Developers
+												<ul>
+													<li>
+														<input type="checkbox" name="stein" value="stein"> Front end
+														<ul>
+															<li><input type="checkbox" name="stein" value="stein"> Senior</li>
+															<li><input type="checkbox" name="stein" value="stein"> Midweight</li>
+															<li><input type="checkbox" name="stein" value="stein"> Junior</li>
+														</ul>
+													</li>
+													<li><input type="checkbox" name="stein" value="stein"> Back end</li>
+											</li>
+											<li><input type="checkbox" name="stein" value="stein"> Accounts</li>
+										</ul>
+									</li>
+									<li><input type="checkbox" name="stein" value="stein"> London</li>
+									<li><input type="checkbox" name="stein" value="stein"> Paris</li>
+								</ul>
+							</li>
+							<li><input type="checkbox" name="stein" value="stein"> ASIA</li>
+							<li><input type="checkbox" name="stein" value="stein"> APAC</li>
+						</ul>
+					</li>
 
 					<label>Bio</label>
 					<textarea>Bio information</textarea>

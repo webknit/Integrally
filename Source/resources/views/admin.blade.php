@@ -16,7 +16,8 @@
 
 					<li><a>Add a new user</a></li>
 					<li><a>Add a new department</a></li>
-					<li><a>Add a new download/info</a></li>
+					<li><a>Add a new job</a></li>
+					<li><a>Add a new category or sub cat</a></li>
 
 				</ul>
 
@@ -32,11 +33,10 @@
 					<label>Last Name</label>
 					<input type="text" />
 
-					<label>Department</label>
-					<input type="checkbox" name="dept" value="dept1"> Dept 1<br>
-					<input type="checkbox" name="dept" value="dept2"> Dept 2<br>
+					<label>DOB</label>
+					<input type="text" />
 
-					<label>Categories</label>
+					<label>Groups</label>
 					<li>
 						<input type="checkbox" name="stein" value="stein"> stein<br>
 						<ul>
@@ -71,24 +71,21 @@
 						</ul>
 					</li>
 
-					<label>Sub Department</label>
-					<input type="checkbox" name="subdept" value="subdept1"> Sub Dept 1<br>
-					<input type="checkbox" name="subdept" value="subdept2"> Sub Dept 2<br>
-
 					<input type="submit" />
 
 				</form>
 
-				<h3>Add a new department</h3>
+				<h3>Add a new group</h3>
 				<form>
 
-					<label>Department Name</label>
+					<label>Group Name</label>
 					<input type="text" />
 
-					<label>Description</label>
-					<textarea>Department description</textarea>
+					<label>Group Description</label>
+					<textarea>Description</textarea>
 
-					<label>Department categories</label>
+					<label>Select parent</label>
+					<label>Categories</label>
 					<li>
 						<input type="checkbox" name="stein" value="stein"> stein<br>
 						<ul>
@@ -97,6 +94,22 @@
 								<ul>
 									<li>
 										<input type="checkbox" name="stein" value="stein"> Bollington
+										<ul>
+											<li>
+												<input type="checkbox" name="stein" value="stein"> Developers
+												<ul>
+													<li>
+														<input type="checkbox" name="stein" value="stein"> Front end
+														<ul>
+															<li><input type="checkbox" name="stein" value="stein"> Senior</li>
+															<li><input type="checkbox" name="stein" value="stein"> Midweight</li>
+															<li><input type="checkbox" name="stein" value="stein"> Junior</li>
+														</ul>
+													</li>
+													<li><input type="checkbox" name="stein" value="stein"> Back end</li>
+											</li>
+											<li><input type="checkbox" name="stein" value="stein"> Accounts</li>
+										</ul>
 									</li>
 									<li><input type="checkbox" name="stein" value="stein"> London</li>
 									<li><input type="checkbox" name="stein" value="stein"> Paris</li>
