@@ -45,6 +45,8 @@ Route::get('resources/{slug}', 'Resources\ResourceController@resource');
 
 Route::get('admin', 'WelcomeController@admin');
 
+Route::get('login', 'WelcomeController@login');
+
 Route::get('layouts', 'WelcomeController@layouts');
 
 

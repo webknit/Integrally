@@ -10,15 +10,14 @@
 
 			<div class="content__layout2-col1">
 
-				<h2>Admin options</h2>
+				<h2>Log in</h2>
 
-				<ul>
+				<form>
 
-					<li><a>Add a new user</a></li>
-					<li><a>Add a new department</a></li>
-					<li><a>Add a new download/info</a></li>
+					<input type="text" />
+					<input type="password" />
 
-				</ul>
+					<input type="submit" />
 
 			</div><!-- .phonebook__info-sidebar -->
 
