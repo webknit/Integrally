@@ -17,9 +17,10 @@ class CreateProfilesTable extends Migration {
 			$table->increments('id');
 			$table->string('first_name', 100);
 			$table->string('last_name', 100);
-			$table->string('dob', 10);
+			$table->date('dob');
 			$table->text('bio');
 			$table->string('profile_image', 100);
+			$table->string('slug', 200);
 			$table->timestamps();
 
 		});
