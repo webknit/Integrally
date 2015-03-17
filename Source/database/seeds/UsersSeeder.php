@@ -13,19 +13,23 @@ class UsersSeeder extends Seeder {
         foreach(range(1, 10) as $index)
         {
         	$profileId = $faker->unique()->randomNumber(3);
+            $firstName = $faker->firstName();
+            $lastName = $faker->lastName();
+            $name = $firstName . " " . $lastName;
 
             $profiles[] = [
             	'id' => $profileId,
-            	'first_name' => $faker->firstName(),
-            	'last_name' => $faker->lastName(),
-            	'dob' => $faker->unixTime(),
+            	'first_name' => $firstName,
+            	'last_name' => $lastName,
+            	'dob' => $faker->dateTime(),
             	'bio' => "<p>" . implode("</p><p>", $faker->paragraphs(3)) . "</p>",
-            	'profile_image' => $faker->imageUrl(640, 480, 'people')
+            	'profile_image' => $faker->imageUrl(640, 480, 'people'),
+                'slug' => str_slug($name)
             ];
 
             $users[] = [
             	'email' => $faker->email(),
-            	'name' => $faker->name(),
+            	'name' => $name,
             	'password' => bcrypt($faker->password()),
             	'profile_id' => $profileId
             ];
