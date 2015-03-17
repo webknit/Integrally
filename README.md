@@ -34,3 +34,18 @@ See app/http/controllers/WelcomeController.php for example
 
 	</ul>
 	@endforeach
+
+
+# The following commands require logging into the vagrant box via SSH using `homestead ssh` and navigating to the source folder
+
+## Dependency updates
+Run `composer install`
+
+## Database Schema updates
+Run `php artisan migrate`
+
+## Database population
+Run `php artisan db:seed`
+
+## Exit ssh
+Run `exit`
