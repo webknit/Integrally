@@ -63,7 +63,7 @@
 
 				<li class="content__list-li">
 
-					<img src="img/avatar.jpg" class="content__list-avatar" />
+					<img src="/img/avatar.jpg" class="content__list-avatar" />
 
 					<ul>
 
@@ -79,7 +79,7 @@
 
 				<li class="content__list-li">
 
-					<img src="img/avatar.jpg" class="content__list-avatar" />
+					<img src="/img/avatar.jpg" class="content__list-avatar" />
 
 					<ul>
 
@@ -94,7 +94,7 @@
 
 				<li class="content__list-li">
 
-					<img src="img/avatar.jpg" class="content__list-avatar" />
+					<img src="/img/avatar.jpg" class="content__list-avatar" />
 
 					<ul>
 
@@ -109,7 +109,7 @@
 
 				<li class="content__list-li">
 
-					<img src="img/avatar.jpg" class="content__list-avatar" />
+					<img src="/img/avatar.jpg" class="content__list-avatar" />
 
 					<ul>
 
