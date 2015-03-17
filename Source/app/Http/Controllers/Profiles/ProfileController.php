@@ -56,6 +56,11 @@ class ProfileController extends Controller {
 		return view('profiles.profile')->with($data);
 	}
 
+	public function profileEdit()
+	{
+		return view('profiles.edit-profile');
+	}
+
 	public function group($slug)
 	{
 		$data = ['slug' => $slug];
