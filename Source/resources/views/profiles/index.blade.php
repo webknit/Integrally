@@ -34,66 +34,25 @@
 
 		<ul class="content__list">
 
-			<li class="content__list-li">
+			@foreach($profiles as $profile)
+				<li class="content__list-li">
 
-				<img src="/img/avatar.jpg" class="content__list-avatar" />
+					<a href="{{route('profile', ['slug' => $profile->slug])}}">
+						<img src="{{$profile->profile_image}}" class="content__list-avatar" />
+					</a>
+					
+					<ul>
 
-				<ul>
+						<li><span>Name:</span> {{$profile->first_name}} {{$profile->last_name}}</li>
+						<li><span>Role:</span> Web Developer</li>
+						<li><span>DOB:</span> {{$profile->dob}}</li>
 
-					<li><span>Name:</span>Shane Prendergast</li>
-					<li><span>Role:</span>Web Developer</li>
-					<li><span>DOB:</span>17-08-1986</li>
+					</ul>
 
-				</ul>
+					<a href="{{route('profile', ['slug' => $profile->slug])}}" class="content__list-view">View</a>
 
-				<a href="#" class="content__list-view">View</a>
-
-			</li><!-- .content__list-li -->
-
-			<li class="content__list-li">
-
-				<img src="/img/avatar.jpg" class="content__list-avatar" />
-
-				<ul>
-
-					<li><span>Name:</span>Shane Prendergast</li>
-					<li><span>Role:</span>Web Developer</li>
-
-				</ul>
-
-				<a href="#" class="content__list-view">View</a>
-
-			</li><!-- .content__list-li -->
-
-			<li class="content__list-li">
-
-				<img src="/img/avatar.jpg" class="content__list-avatar" />
-
-				<ul>
-
-					<li><span>Name:</span>Shane Prendergast</li>
-					<li><span>Role:</span>Web Developer</li>
-
-				</ul>
-
-				<a href="#" class="content__list-view">View</a>
-
-			</li><!-- .content__list-li -->
-
-			<li class="content__list-li">
-
-				<img src="/img/avatar.jpg" class="content__list-avatar" />
-
-				<ul>
-
-					<li><span>Name:</span>Shane Prendergast</li>
-					<li><span>Role:</span>Web Developer</li>
-
-				</ul>
-
-				<a href="#" class="content__list-view">View</a>
-
-			</li><!-- .content__list-li -->
+				</li><!-- .content__list-li -->
+			@endforeach
 
 		</ul><!-- .content__list -->
 

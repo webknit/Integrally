@@ -17,7 +17,7 @@ Route::get('home', 'HomeController@index');
 
 /*
 |--------------------------------------------------------------------------
-| Phonebook Routes
+| Profile Routes
 |--------------------------------------------------------------------------
 */
 
@@ -26,7 +26,10 @@ Route::get('profiles', array(
 	'as' => 'profiles'
 ));
 
-Route::get('profiles/{slug}', 'Profiles\ProfileController@profile');
+Route::get('profiles/{slug}', array(
+	'uses' => 'Profiles\ProfileController@profile',
+	'as' => 'profile'
+));
 
 Route::get('profiles/group/{group}', 'Profiles\ProfileController@group');
 
@@ -34,7 +37,7 @@ Route::get('profiles/{slug}/edit', 'Profiles\ProfileController@profileEdit');
 
 /*
 |--------------------------------------------------------------------------
-| Resources Routes
+| Resource Routes
 |--------------------------------------------------------------------------
 */
 
