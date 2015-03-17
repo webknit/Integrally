@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\Resources;
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -15,19 +15,38 @@ Route::get('/', 'WelcomeController@index');
 
 Route::get('home', 'HomeController@index');
 
+/*
+|--------------------------------------------------------------------------
+| Phonebook Routes
+|--------------------------------------------------------------------------
+*/
+
+Route::get('phonebook', 'Phonebook\PhonebookController@index');
+
+Route::get('phonebook/employee/{slug}', 'Phonebook\PhonebookController@employee');
+
+Route::get('phonebook/dept/{slug}', 'Phonebook\PhonebookController@department');
+
+/*
+|--------------------------------------------------------------------------
+| Resources Routes
+|--------------------------------------------------------------------------
+*/
+
+Route::get('resources', 'Resources\ResourceController@index');
+
+Route::get('resources/{slug}', 'Resources\ResourceController@resource');
+
+/*
+|--------------------------------------------------------------------------
+| Helper/Uncategorised Routes
+|--------------------------------------------------------------------------
+*/
+
 Route::get('admin', 'WelcomeController@admin');
 
 Route::get('layouts', 'WelcomeController@layouts');
 
-Route::get('phonebook', 'WelcomeController@phonebook');
-
-Route::get('phonebook-single', 'WelcomeController@phonebookSingle');
-
-Route::get('phonebook-dept', 'WelcomeController@phonebookDept');
-
-Route::get('download', 'WelcomeController@download');
-
-Route::get('download-single', 'WelcomeController@downloadSingle');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',

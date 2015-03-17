@@ -1,6 +1,8 @@
-<?php namespace App\Http\Controllers;
+<?php namespace App\Http\Controllers\Resources;
 
-class WelcomeController extends Controller {
+use App\Http\Controllers\Controller;
+
+class ResourceController extends Controller {
 
 	/*
 	|--------------------------------------------------------------------------
@@ -24,23 +26,23 @@ class WelcomeController extends Controller {
 	}
 
 	/**
-	 * Show the application welcome screen to the user.
+	 * Show the resources overview.
 	 *
 	 * @return Response
 	 */
 	public function index()
 	{
-		return view('welcome');
+		return view('download');
 	}
-
-	public function admin()
+	
+	/**
+	 * Show a single resource.
+	 *
+	 * @return Response
+	 */
+	public function resource($slug)
 	{
-		return view('admin');
-	}
-
-	public function layouts()
-	{
-		return view('layouts');
+		return view('download-single');
 	}
 
 

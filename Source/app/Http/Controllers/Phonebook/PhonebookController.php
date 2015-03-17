@@ -1,6 +1,8 @@
-<?php namespace App\Http\Controllers;
+<?php namespace App\Http\Controllers\Phonebook;
 
-class WelcomeController extends Controller {
+use App\Http\Controllers\Controller;
+
+class PhonebookController extends Controller {
 
 	/*
 	|--------------------------------------------------------------------------
@@ -30,17 +32,33 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('welcome');
+		return view('phonebook');
 	}
 
-	public function admin()
+	public function employee($slug)
 	{
-		return view('admin');
+		$people = [
+			[
+				'name' => 'Shane Prendergast',
+				'role' => 'Web developer'
+			],
+			[
+				'name' => 'Jordan Lane',
+				'role' => 'Web developer'
+			],
+			[
+				'name' => 'Timmy',
+				'role' => 'Artist'
+			]
+
+		];
+		$data = ['people' => $people];
+		return view('phonebook-single')->with($data);
 	}
 
-	public function layouts()
+	public function department($slug)
 	{
-		return view('layouts');
+		return view('phonebook-dept');
 	}
 
 
