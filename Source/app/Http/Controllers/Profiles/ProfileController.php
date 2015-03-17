@@ -32,7 +32,7 @@ class ProfileController extends Controller {
 	 */
 	public function index()
 	{
-		return view('profiles.profiles');
+		return view('profiles.index');
 	}
 
 	public function profile($slug)
@@ -52,7 +52,7 @@ class ProfileController extends Controller {
 			]
 
 		];
-		$data = ['people' => $people];
+		$data = ['people' => $people, 'slug' => $slug];
 		return view('profiles.profile')->with($data);
 	}
 
