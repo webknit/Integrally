@@ -21,11 +21,11 @@ Route::get('home', 'HomeController@index');
 |--------------------------------------------------------------------------
 */
 
-Route::get('phonebook', 'Phonebook\PhonebookController@index');
+Route::get('profiles', 'Profiles\ProfileController@index');
 
-Route::get('phonebook/employee/{slug}', 'Phonebook\PhonebookController@employee');
+Route::get('profiles/{slug}', 'Profiles\ProfileController@profile');
 
-Route::get('phonebook/dept/{slug}', 'Phonebook\PhonebookController@department');
+Route::get('profiles/group/{group}', 'Profiles\ProfileController@group');
 
 /*
 |--------------------------------------------------------------------------

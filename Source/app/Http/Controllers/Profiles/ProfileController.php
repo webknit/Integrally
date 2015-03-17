@@ -1,8 +1,8 @@
-<?php namespace App\Http\Controllers\Phonebook;
+<?php namespace App\Http\Controllers\Profiles;
 
 use App\Http\Controllers\Controller;
 
-class PhonebookController extends Controller {
+class ProfileController extends Controller {
 
 	/*
 	|--------------------------------------------------------------------------
@@ -32,10 +32,10 @@ class PhonebookController extends Controller {
 	 */
 	public function index()
 	{
-		return view('phonebook');
+		return view('profiles.profiles');
 	}
 
-	public function employee($slug)
+	public function profile($slug)
 	{
 		$people = [
 			[
@@ -53,12 +53,12 @@ class PhonebookController extends Controller {
 
 		];
 		$data = ['people' => $people];
-		return view('phonebook-single')->with($data);
+		return view('profiles.profile')->with($data);
 	}
 
-	public function department($slug)
+	public function group($slug)
 	{
-		return view('phonebook-dept');
+		return view('profiles.group');
 	}
 
 
