@@ -47,10 +47,11 @@
 			<div class="content__layout1-col3">
 
 				<ul>
+					<li><a href="{{route('profiles')}}">View profiles</a></li>
 					<li><a>View department</a></li>
 					<li><a>View calender</a></li>
 					<li><a>Send message</a></li>
-				<ul>
+				</ul>
 
 			</div>
 

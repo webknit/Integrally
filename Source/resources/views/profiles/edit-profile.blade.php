@@ -74,9 +74,7 @@
 
 				<ul>
 					<li><a href="{{route('profiles')}}">View profiles</a></li>
-				</ul>
-
-				
+				</ul>	
 
 			</div><!-- .phonebook__bio -->
 
