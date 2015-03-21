@@ -4,9 +4,9 @@
 
 <div class="content phonebook">
 
-	<div class="container row">
-
-		<div class="content__criteria row">
+	<div class="content__criteria row">
+	
+		<div class="container">
 
 			<select class="content__criteria-select">
 				<option value="">Department</option>
@@ -14,23 +14,27 @@
 				<option value="">Accounts</option>
 				<option value="">Finance</option>
 			</select>
-
+	
 			<select lass="content__criteria-select">
 				<option value="">Sort Name</option>
 				<option value="">A-Z</option>
 				<option value="">Z-A</option>
 			</select> 
-
+	
 			<form class="content__searchbox">
-
+	
 				<label for="content__searchboxname">Search</label>
 				<input type="text" id="content__searchboxname" class="content__searchbox-name" placeholder="Joe Bloggs" />
-
+	
 				<input type="submit" value="Submit" />
-
+	
 			</form>
+		
+		</div><!-- .container -->
 
-		</div><!-- .content_criteria -->
+	</div><!-- .content_criteria -->
+
+	<div class="container row">
 
 		<ul class="content__list">
 

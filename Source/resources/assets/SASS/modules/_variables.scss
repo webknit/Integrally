@@ -9,8 +9,10 @@ $col-white: #fff;
 // main coulurs
 $col-tundora: #454545;
 $col-mine-shaft: #333333;
+$col-dove-grey: #666666;
 $col-red-damask: #d8544b;
 $col-sunglo: #e2766f;
+$col-wild-sand: #f4f4f4;
 
 // Links/btns
 $col-mantis-light: #82c872;
@@ -19,17 +21,27 @@ $col-mantis: #82c872;
 // Header colours
 $col-outer-space: #2f3c42;
 
+// Content
+$col-mercury: #e3e3e3;
+
 
 /* COLOUR REFERENCES
 ------------------------------------------ */
 
 // Base elements
-$col-standard: $col-tundora;
+$col-body-bg: $col-wild-sand;
+$col-standard: $col-dove-grey;
 $col-link: $col-mantis;
 $col-link-hover: $col-mantis-light;
 
 // Header
 $col-header-bg: $col-outer-space;
+
+// Content
+$col-content-li-border: $col-mercury;
+
+// Footer
+$col-footer-bg: $col-outer-space;
 
 
 /* WEIGHTS

@@ -1,6 +1,8 @@
 .header {
+	background: $col-header-bg;
 	border-bottom: 1px solid #E3E3E3;
-	padding: 1em 0;
+	color: $col-white;
+	padding: 2em 0;
 	&__user,
 	&__logo {
 		
