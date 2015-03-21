@@ -19,6 +19,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<link rel="stylesheet" href="/css/style.css" media="screen">
+	
+	<script src="//use.typekit.net/wxc4bli.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
 
 </head>
 

@@ -15,7 +15,7 @@
 				<option value="">Finance</option>
 			</select>
 	
-			<select lass="content__criteria-select">
+			<select class="content__criteria-select">
 				<option value="">Sort Name</option>
 				<option value="">A-Z</option>
 				<option value="">Z-A</option>
@@ -23,8 +23,8 @@
 	
 			<form class="content__searchbox">
 	
-				<label for="content__searchboxname">Search</label>
-				<input type="text" id="content__searchboxname" class="content__searchbox-name" placeholder="Joe Bloggs" />
+				<!-- <label for="content__searchboxname">Search</label> -->
+				<input type="text" id="content__searchboxname" class="content__searchbox-name" placeholder="Enter name, dept etc" />
 	
 				<input type="submit" value="Submit" />
 	

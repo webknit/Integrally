@@ -13,6 +13,7 @@ $col-dove-grey: #666666;
 $col-red-damask: #d8544b;
 $col-sunglo: #e2766f;
 $col-wild-sand: #f4f4f4;
+$col-pickled-bluewood: #283a42;
 
 // Links/btns
 $col-mantis-light: #82c872;
@@ -24,6 +25,10 @@ $col-outer-space: #2f3c42;
 // Content
 $col-mercury: #e3e3e3;
 
+// Form
+$col-porcelain: #fbfcfc;
+$col-silver: #c6c4c4;
+
 
 /* COLOUR REFERENCES
 ------------------------------------------ */
@@ -33,12 +38,20 @@ $col-body-bg: $col-wild-sand;
 $col-standard: $col-dove-grey;
 $col-link: $col-mantis;
 $col-link-hover: $col-mantis-light;
+$col-header: $col-pickled-bluewood;
 
 // Header
 $col-header-bg: $col-outer-space;
 
 // Content
 $col-content-li-border: $col-mercury;
+$col-content-li-view: $col-mantis-light;
+
+// Form
+$col-submit-btn-bg: $col-mantis-light;
+$col-criteria-search-bg: $col-porcelain;
+$col-criteria-search-border: $col-silver;
+$col-criteria-select: $col-dove-grey;
 
 // Footer
 $col-footer-bg: $col-outer-space;
@@ -55,7 +68,7 @@ $weight-bold: 600;
 /* BASE FONTS
 ------------------------------------------ */
 
-$base-font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+$base-font-family: "proxima-nova", Arial,"Helvetica Neue",Helvetica,sans-serif;
 $base-font-weight: $weight-regular;
 $base-font-size: 1em;
 $base-line-height: 1.4;
@@ -64,7 +77,7 @@ $base-line-height: 1.4;
 /* HEADER FONTS
 ------------------------------------------ */
 
-$header-font-family: "Arial Black","Arial Bold",Gadget,sans-serif;
+$header-font-family: "proxima-nova", "Arial Black","Arial Bold",Gadget,sans-serif;
 	
 	
 	

@@ -1,5 +1,11 @@
+input, select, textarea, button {
+	font-family: inherit;
+	font-size: inherit;
+}
+
 input, 
 textarea {
+	border-radius: 0.3em;
 	margin: 0 0 1em;
 	outline: none;
 	padding: 0.8em;
@@ -7,8 +13,9 @@ textarea {
 }
 
 input[type=submit] {
+	background: $col-submit-btn-bg;
 	border: none;
-	background: red;
+	color: $col-white;
 	width: auto;
 }
 
@@ -19,6 +26,6 @@ input[type=checkbox] {
 }
 
 label {
-	display: block;
+	/* display: block; */
 }
 	

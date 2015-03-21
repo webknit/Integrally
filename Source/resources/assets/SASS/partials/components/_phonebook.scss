@@ -1,3 +1,6 @@
 .phonebook {
-	
+	padding: 0 0 3em;
+	&--single {
+		padding-top: 3em;
+	}
 }
