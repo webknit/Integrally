@@ -46,11 +46,12 @@
 
 			<div class="content__layout1-col3">
 
-				<ul>
-					<li><a href="{{route('profiles')}}">View profiles</a></li>
-					<li><a>View department</a></li>
-					<li><a>View calender</a></li>
-					<li><a>Send message</a></li>
+				<ul class="content__options">
+					<li class="content__options-title">Options</li>
+					<li class="content__options-li"><a href="{{route('profiles')}}">View profiles</a></li>
+					<li class="content__options-li"><a>View department</a></li>
+					<li class="content__options-li"><a>View calender</a></li>
+					<li class="content__options-li"><a>Send message</a></li>
 				</ul>
 
 			</div>

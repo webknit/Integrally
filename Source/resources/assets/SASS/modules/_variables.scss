@@ -13,6 +13,8 @@ $col-dove-grey: #666666;
 $col-red-damask: #d8544b;
 $col-sunglo: #e2766f;
 $col-wild-sand: #f4f4f4;
+$col-wild-sand-lighter: #f7f7f7;
+$col-wild-sand-darker: #e9e8e8;
 $col-pickled-bluewood: #283a42;
 
 // Links/btns
@@ -46,6 +48,10 @@ $col-header-bg: $col-outer-space;
 // Content
 $col-content-li-border: $col-mercury;
 $col-content-li-view: $col-mantis-light;
+$col-content-options-border: $col-mercury;
+$col-content-options-title-bg: $col-wild-sand-lighter;
+$col-content-options-a-bg-hover: $col-wild-sand-darker;
+$col-content-options-a: $col-dove-grey;
 
 // Form
 $col-submit-btn-bg: $col-mantis-light;

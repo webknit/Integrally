@@ -42,7 +42,6 @@
 		}
 	}
 	&__layout1-col3 {
-		text-align: right;
 		@include span(12 of 12);
 		@include breakpoint(medium) {
 			@include span(12 of 12);
@@ -171,6 +170,38 @@
 		}
 		input[type=submit] {
 			width: auto;
+		}
+	}
+	&__options {
+		border: 1px solid $col-content-options-border;
+		font-size: 0.9em;
+		&-title {
+			background: $col-content-options-title-bg;
+			font-size: 0.9em;
+			font-weight: $weight-black;
+			letter-spacing: 0.08em;
+			padding: 1em;
+			text-transform: uppercase;
+		}
+		&-li {
+			background: $col-white;
+			border-top: 1px solid $col-content-options-border;
+			&:first-child {
+				border-top: none;
+			}
+		}
+		a {
+			color: $col-content-options-a;
+			display: block;
+			padding: 1em;
+			&:hover {
+				background: $col-content-options-a-bg-hover;
+			}
+			&:after {
+				font-family: FontAwesome;
+	   			content: "\f054";
+	   			float: right;
+			}
 		}
 	}
 }
