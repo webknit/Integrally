@@ -49,6 +49,7 @@ $col-content-li-view: $col-mantis-light;
 
 // Form
 $col-submit-btn-bg: $col-mantis-light;
+$col-submit-btn-bg-hover: $col-mantis-light;
 $col-criteria-search-bg: $col-porcelain;
 $col-criteria-search-border: $col-silver;
 $col-criteria-select: $col-dove-grey;
@@ -62,7 +63,8 @@ $col-footer-bg: $col-outer-space;
 
 $weight-light: 100;
 $weight-regular: 400;
-$weight-bold: 600;
+$weight-bold: 700;
+$weight-black: 900;
 
 
 /* BASE FONTS
@@ -78,6 +80,7 @@ $base-line-height: 1.4;
 ------------------------------------------ */
 
 $header-font-family: "proxima-nova", "Arial Black","Arial Bold",Gadget,sans-serif;
+$base-header-font-weight: $weight-black;
 	
 	
 	

@@ -16,7 +16,11 @@ input[type=submit] {
 	background: $col-submit-btn-bg;
 	border: none;
 	color: $col-white;
+	cursor: pointer;
 	width: auto;
+	&:hover {
+		background: $col-submit-btn-bg-hover;
+	}
 }
 
 input[type=checkbox] {

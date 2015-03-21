@@ -47,9 +47,9 @@
 					
 					<ul>
 
-						<li><span>Name:</span> {{$profile->first_name}} {{$profile->last_name}}</li>
-						<li><span>Role:</span> Web Developer</li>
-						<li><span>DOB:</span> {{$profile->dob}}</li>
+						<li><h2 class="content__list-title">{{$profile->first_name}} {{$profile->last_name}}</h2></li>
+						<li>Web Developer</li>
+						<!-- <li><span>DOB:</span> {{$profile->dob}}</li> -->
 
 					</ul>
 

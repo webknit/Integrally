@@ -41,7 +41,8 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
 	color: $col-header;
 	font-family: $header-font-family;
-	margin:0 0 0.35em 0;
+	font-weight: $base-header-font-weight;
+	margin: 0 0 0.35em 0;
 }
 
 h1, .h1 {
@@ -73,7 +74,7 @@ small {
 }
 
 ul {
-	margin-left: 1em;
+	margin-left: 0;
 }
 
 ul li {
