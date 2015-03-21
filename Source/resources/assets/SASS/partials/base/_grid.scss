@@ -1,5 +1,11 @@
 @import "susy";
 
+$susy: (
+  columns: 12,
+  gutters: .90,
+  math: fluid,
+);
+
 
 /* SMALL/DEFAULT
 ------------------------------------------ */
