@@ -2,41 +2,25 @@
 
 @section('content')
 
-<div class="content admin">
+<div class="content login">
 
-	<div class="container">
+	<h2 class="content__header">Log in</h2>
 
-		<div class="row">
+	<div class="login__box">
 
-			<div class="content__layout2-col1">
+		<form>
 
-				<h2>Log in</h2>
+			<input type="text" placeholder="Username" />
 
-				<form>
+			<input type="password" placeholder="Password" />
 
-					<label>Username</label>
-					<input type="text" />
+			<input type="submit" />
 
-					<label>Password</label>
-					<input type="password" />
+		</form>
 
-					<input type="submit" />
+		<a href="">Forgot Password</a>
 
-				</form>
-
-				<a href="">Forgot Password</a>
-
-			</div><!-- .phonebook__info-sidebar -->
-
-			<div class="content__layout2-col2">
-
-				
-
-			</div><!-- .phonebook__bio -->
-
-		</div><!-- .row -->
-
-	</div><!-- .container -->
+	</div><!-- .login__box -->
 
 </div><!-- .content -->
    

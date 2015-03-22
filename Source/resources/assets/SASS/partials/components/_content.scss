@@ -79,6 +79,13 @@
 			max-width: 800px;
 		}
 	}
+	&__header {
+		font-size: 3em;
+		font-weight: $weight-black;
+		letter-spacing: 0.05em;
+		text-align: center;
+		text-transform: uppercase;
+	}
 	&__list {
 		clear: both;
 		display: flex;
@@ -165,7 +172,7 @@
 		margin-bottom: 3em;
 		padding: 1em 0;
 		&-select {
-			color: $col-criteria-select;
+			color: $col-input-select;
 			margin: 0.7em 1em 0 0;
 		}
 	}
@@ -175,9 +182,6 @@
 			margin-bottom: 0;
 		}
 		input[type=text] {
-			background: $col-criteria-search-bg;
-			border: 1px solid $col-criteria-search-border;
-			color: $col-criteria-select;
 			width: 200px;
 		}
 		input[type=submit] {

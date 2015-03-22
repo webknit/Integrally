@@ -49,7 +49,7 @@
 				<ul class="content__options">
 					<li class="content__options-title">Options</li>
 					<li class="content__options-li"><a href="{{route('profiles')}}">View profiles</a></li>
-					<li class="content__options-li"><a>View department</a></li>
+					<li class="content__options-li"><a href="#">View department</a></li>
 					<li class="content__options-li"><a>View calender</a></li>
 					<li class="content__options-li"><a>Send message</a></li>
 				</ul>
