@@ -10,7 +10,15 @@
 
 		<div class="header__user">
 
-			Shane Prendergast
+			<div class="header__user-name">Shane Prendergast</div>
+			
+			<ul class="header__user-options">
+			
+				<li class="header__user-options-li"><a class="header__user-options-a header__user-options-a--profile">Profile</a></li>
+				<li class="header__user-options-li"><a class="header__user-options-a header__user-options-a--pref">Preferences</a></li>
+				<li class="header__user-options-li"><a class="header__user-options-a header__user-options-a--logout">Log out</a></li>
+			
+			</ul>
 
 		</div><!-- .header__user -->
 

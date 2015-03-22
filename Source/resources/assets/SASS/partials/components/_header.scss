@@ -2,7 +2,6 @@
 	background: $col-header-bg;
 	border-bottom: 1px solid #E3E3E3;
 	color: $col-white;
-	padding: 2em 0;
 	&__user,
 	&__logo {
 		
@@ -12,5 +11,66 @@
 	}
 	&__user {
 		float: right;
+		padding: 2em 0;
+		&:hover > .header__user-options {
+			display: block;
+		}
+		&-name {
+			padding-right: 2em;
+			position: relative;
+			width: 200px;
+			&:after {
+				font-family: FontAwesome;
+	   			content: "\f078";
+	   			position: absolute;
+	   			right: 0;
+			}
+		}
+		&-options {
+			background: $col-header-bg;
+			display: none;
+		    position: absolute;
+		    top: 86px;
+		    width: 200px;
+		    &-li {
+		    	
+		    }
+		    &-a {
+		    	border-top: 1px solid $col-options-line;
+		    	color: $col-white;
+		    	display: block;
+		    	font-size: 0.8em;
+		    	letter-spacing: 0.08em;
+		    	padding: 1em;
+		    	position: relative;
+		    	text-transform: uppercase;
+		    	&:hover {
+		    		background: $col-options-line;
+		    		color: $col-white;
+		    	}
+		    	&:after {
+					font-family: FontAwesome;
+					font-weight: normal;
+		   			content: "\f078";
+		   			position: absolute;
+		   			right: 1em;
+				}
+		    	&--profile {
+		    		&:after {
+		    			content: "\f007";
+		    		}
+		    	}
+		    	&--pref {
+		    		&:after {
+		    			content: "\f013";
+		    		}
+		    	}
+		    	&--logout {
+		    		&:after {
+		    			content: "\f011";
+		    		}
+		    	}
+		    }
+		}
 	}
 }
