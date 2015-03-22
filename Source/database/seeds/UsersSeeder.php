@@ -23,7 +23,7 @@ class UsersSeeder extends Seeder {
             	'last_name' => $lastName,
             	'dob' => $faker->dateTime(),
             	'bio' => "<p>" . implode("</p><p>", $faker->paragraphs(3)) . "</p>",
-            	'profile_image' => $faker->imageUrl(640, 480, 'people'),
+            	'profile_image' => $faker->imageUrl(480, 480, 'people'),
                 'slug' => str_slug($name)
             ];
 
