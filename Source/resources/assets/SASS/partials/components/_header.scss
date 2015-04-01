@@ -8,6 +8,10 @@
 	}
 	&__logo {
 		float: left;
+		font-weight: $weight-bold;
+		letter-spacing: 0.2em;
+		margin-top: 1.9em;
+		text-transform: uppercase;
 	}
 	&__user {
 		float: right;
